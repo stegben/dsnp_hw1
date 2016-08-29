@@ -1,5 +1,6 @@
-*.docx
+*.docx*
 *.pdf
+p2Run
 
 # Prerequisites
 *.d
