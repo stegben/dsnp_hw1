@@ -9,8 +9,9 @@ using namespace std;
 class Row
 {
 public:
-   const int operator[] (size_t i) const { } // TODO
-   int& operator[] (size_t i) { } // TODO
+   Row(int *data);
+   const int operator[] (size_t i) const;
+   int& operator[] (size_t i);
 
 private:
    int  *_data;
