@@ -9,6 +9,7 @@ using namespace std;
 class Row
 {
 public:
+   Row(int *data);
    const int operator[] (size_t i) const;
    int& operator[] (size_t i);
 
