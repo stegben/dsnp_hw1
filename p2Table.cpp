@@ -22,3 +22,13 @@ Table::read(const string& csvFile)
 {
     return true; // TODO
 }
+
+const Row&
+Table::operator[] (size_t i) const {
+    return &_rows[i];
+}
+
+Row&
+Table::operator[] (size_t i) {
+    return &_rows[i];
+}
